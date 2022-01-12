@@ -1,0 +1,117 @@
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+.text-white {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-white-rgb), var(--mdb-text-opacity)) !important;
+  margin-left: 24rem;
+  position: absolute;
+  width: 388px;
+  height: 100px;
+  left: 619px;
+  top: 221px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 49px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.help {
+  display: flex;
+  top: 561px;
+  width: 230px;
+  height: 70px;
+  left: 118px;
+  background: rgba(5, 6, 6, 0.5);
+  box-shadow: inset 0px -2.5px 0px #ffa115;
+  color: #fff;
+  justify-content: center;
+  margin-right: 4rem;
+  margin-top: -3rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+.helpnoshadow {
+  display: flex;
+  top: 561px;
+  width: 230px;
+  height: 70px;
+  left: 118px;
+  background: rgba(5, 6, 6, 0.5);
+
+  color: #fff;
+  justify-content: center;
+  margin-right: 4rem;
+  margin-top: -3rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+.helptext {
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-right: 2rem;
+}
+.bottomtab {
+  display: flex;
+  top: 561px;
+  width: 230px;
+  height: 70px;
+  left: 118px;
+
+  color: #fff;
+  justify-content: center;
+  margin-right: 4rem;
+  margin-top: -3rem;
+  font-size: 15px;
+}
+.bottomtabtext {
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -40px;
+  left: 19px;
+  overflow: hidden;
+}
+.shadow-1-strong {
+  box-shadow: none;
+}
